@@ -19,12 +19,14 @@
               css-class="views-header__img alt-img"
 
               src="{{{views-header__img.src}}}"
-              href="{{{views-header__img.href}}}"
               title="{{{views-header__img.title}}}"
               alt="{{{views-header__img.alt}}}" />
 
-
-    <mj-include path="../components/button/button.mjml" />
+    <mj-button mj-class="views-header__btn"
+              css-class="views-header__btn"
+              href="#">
+        This 29 november get 30% off
+    </mj-button>
 
   </mj-column>
 

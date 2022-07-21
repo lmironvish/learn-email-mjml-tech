@@ -14,6 +14,18 @@
     "alt": "text"
   },
 
+  "views-header__img": {
+    "src": "https://i.postimg.cc/ZK9nqMqm/img-tech-headphones-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-header__img-div": {
+    "src": "https://i.postimg.cc/Y9pjq2vD/img-tech-bg-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
   "button--1": {
     "src": "",
     "href": "https://www.google.com/",

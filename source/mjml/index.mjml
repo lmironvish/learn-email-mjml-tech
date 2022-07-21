@@ -38,6 +38,9 @@
 
   </mj-wrapper>
 
+  <mj-include path="views/views-first-div.mjml" />
+
+
   <mj-include path="views/views-footer.mjml" />
 
   </mj-body>

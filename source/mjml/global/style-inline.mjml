@@ -86,4 +86,10 @@
     color: #838383 !important;
   }
 
+
+  .views-header__btn:hover{
+    background-color: #fde4ac !important;
+    color: #000000 !important;
+  }
+
 </mj-style>
