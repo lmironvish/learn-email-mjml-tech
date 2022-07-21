@@ -1,23 +1,18 @@
-const smtpInfo = {
-  auth: {
-    user: 'sometestmailforsend@gmail.com',
-    pass: 'yourpasswordfortest',
+const config = {
+  credentials: {
+    clientId: "",
+    clientSecret: "",
+    redirectURL: "",
+    refreshToken: "",
   },
-  host: 'smtp.gmail.com',
-  secureConnection: true,
-  port: 465,
-};
 
-const mailsClient = [
-  'sometestmailforsend@outlook.com',
-  'sometestmailforsend@yahoo.com',
-  'sometestmailforsend@gmail.com',
-  'sometestmailforsend@yandex.com',
-  'sometestmailforsend@mail.ru',
-  'sometestmailforsend@protonmail.com',
-  'sometestmailforsend@aol.com',
-];
+  sendEmail: {
+    filePath: "./build-test/index.html",
+    from: "fromemailexample@gmail.com",
+    subject: "Test Email",
+    text: "Test Email",
+    to: ["toemailexample@gmail.com"],
+  },
+}
 
-const fromMail = 'TestMail <sometestmailforsend@gmail.com>';
-
-module.exports = { smtpInfo, mailsClient, fromMail };
+module.exports = { config }

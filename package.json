@@ -8,6 +8,7 @@
     "del": "^6.0.0",
     "eslint": "^8.12.0",
     "eslint-plugin-import": "^2.25.4",
+    "googleapis": "^105.0.0",
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.2",
     "gulp-debug": "^4.0.0",
@@ -25,6 +26,7 @@
     "gulp-watch": "^5.0.1",
     "gulp-zip": "^5.1.0",
     "mjml": "^4.12.0",
+    "nodemailer": "^6.7.7",
     "prettier": "2.6.1"
   },
   "scripts": {
@@ -32,6 +34,7 @@
     "image": "yarn gulp image",
     "typograf": "yarn gulp typograf",
     "build": "yarn gulp build",
-    "sendmail": "yarn gulp sendmail"
+    "sendmail": "node ./task/sendmail.js",
+    "buildSend": "yarn build && yarn sendmail"
   }
 }
