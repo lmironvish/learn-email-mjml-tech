@@ -11,7 +11,6 @@ const copytest = require("./task/copytest.js")
 const prettier = require("./task/prettier.js")
 const archive = require("./task/archive.js")
 const typograf = require("./task/typograf.js")
-const sendmail = require("./task/sendmail.js")
 const test = require("./task/test.js")
 
 function watcher() {
@@ -26,8 +25,6 @@ function watcher() {
 function serve() {
   browserSync.init({
     server: "dev",
-    // Tunnel нужен в случае, когда нужно передать баннер на внешний тест
-    // tunnel: "banner-test",
   })
 
   browserSync.watch("dev/**/*.*").on("change", browserSync.reload)
@@ -51,5 +48,3 @@ exports.build = gulp.series(
   changepath,
   archive
 )
-
-exports.sendmail = gulp.series(sendmail)
