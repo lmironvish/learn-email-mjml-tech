@@ -8,6 +8,7 @@
     "del": "^6.1.1",
     "eslint": "^8.19.0",
     "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
     "googleapis": "^105.0.0",
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.2",
@@ -33,7 +34,9 @@
     "image": "gulp image",
     "typograf": "gulp typograf",
     "sendmail": "node ./task/sendmail.js",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {}
 }
