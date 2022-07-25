@@ -6,7 +6,7 @@
 
     <mj-text mj-class="views-header__text"
             css-class="views-header__text">
-      <p>The blackfriday day is coming</p>
+      <p>The blackfriday day is&nbsp;coming</p>
     </mj-text>
 
     <mj-text mj-class="views-header__caption"

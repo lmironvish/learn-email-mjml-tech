@@ -26,7 +26,7 @@
                                              color="#838383" />
 
   <mj-wrapper                                padding="0px"
-                                             />
+                                             full-width="full-width"/>
 
   <mj-section                                padding="0px" />
 
@@ -82,39 +82,213 @@
 
   <!-- title -->
 
-  <mj-class name="views-title__img"          width="128px"/>
+  <mj-class name="views-title__img"                  width="128px"/>
 
   <!-- header -->
 
-  <mj-class name="views-header__text"        font-family="Roboto, Tahoma, Veranda, sans-serif"
-                                             font-size="10px"
-                                             font-weight="700"
-                                             letter-spacing="2px"
-                                             line-height="16px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             color="#ffffff"
-                                             padding="0px"/>
+  <mj-class name="views-header__text"                font-family="Roboto, Tahoma, Veranda, sans-serif"
+                                                     font-size="10px"
+                                                     font-weight="700"
+                                                     letter-spacing="2px"
+                                                     line-height="16px"
+                                                     text-align="center"
+                                                     text-transform="uppercase"
+                                                     color="#ffffff"
+                                                     padding="0px"/>
 
-  <mj-class name="views-header__caption"     font-family="Oswald, Arial, Helvetica, sans-serif";
-                                             font-size="64px"
-                                             font-style="italic"
-                                             font-weight="500"
-                                             line-height="64px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             color="#ffffff"/>
 
-  <mj-class name="views-header__btn"         font-family="Arial, Helvetica, sans-serif";
-                                             font-size="15px"
-                                             font-weight="bold"
-                                             line-height="22px"
-                                             text-align="center"
-                                             text-transform="uppercase"
-                                             padding="10px 20px"
-                                             color="#fde4ac"
-                                             background-color="#000000"
-                                             border="2px solid #fde4ac"/>
+  <mj-class name="views-header__caption"             font-family="Oswald, Arial, Helvetica, sans-serif";
+                                                     font-size="64px"
+                                                     font-style="italic"
+                                                     font-weight="500"
+                                                     line-height="64px"
+                                                     text-align="center"
+                                                     text-transform="uppercase"
+                                                     color="#ffffff"/>
+
+  <mj-class name="views-header__btn"                 font-family="Arial, Helvetica, sans-serif";
+                                                     font-size="15px"
+                                                     font-weight="bold"
+                                                     line-height="22px"
+                                                     text-align="center"
+                                                     text-transform="uppercase"
+                                                     padding="10px 20px"
+                                                     color="#fde4ac"
+                                                     background-color="#000000"/>
+
+  <!-- <mj-class name="div1-color"                "/> -->
+
+  <!-- np-block -->
+
+  <mj-class name="wrapper-divider-first"             background-url="https://i.postimg.cc/Y9pjq2vD/img-tech-bg-1.jpg"
+                                                     background-position="center center"
+                                                     background-repeat="no-repeat"
+                                                     background-size="cover"
+                                                     padding-top="90px"/>
+
+  <mj-class name="wrapper-divider-second"            background-url="https://i.postimg.cc/hvvjTCb9/img-tech-bg-3.jpg"
+                                                     background-position="center center"
+                                                     background-repeat="no-repeat"
+                                                     background-size="cover"
+                                                     padding-top="90px"/>
+
+  <mj-class name="wrapper-background-first"          background-url="https://i.postimg.cc/y8cNm39r/img-tech-bg-5.jpg"
+                                                     background-position="center center"
+                                                     background-repeat="no-repeat"
+                                                     background-size="cover" />
+
+
+  <mj-class name="views-new-product"                 background-color="#fde4ac"/>
+
+  <mj-class name="views-new-product__left-col"       width="300px"/>
+
+  <mj-class name="views-new-product__right-col"      width="300px"/>
+
+  <mj-class name="views-new-product__btn"            font-family="Arial, Helvetica, sans-serif";
+                                                     font-size="15px"
+                                                     font-weight="bold"
+                                                     line-height="22px"
+                                                     text-align="center"
+                                                     text-transform="uppercase"
+                                                     color="#ffffff"
+                                                     background-color="#000000"
+                                                     padding="10px 20px"
+                                                     width="175px"
+                                                     align="left"
+                                                     border-radius="3px"/>
+
+  <mj-class name="views-new-product__text"           font-family="Helvetica, Arial, sans-serif"
+                                                     font-size="14px"
+                                                     font-style="normal"
+                                                     line-height="22px"
+                                                     font-weight="400"
+                                                     text-align="left"
+                                                     align="left"
+                                                     padding="10px 20px"
+                                                     padding="0px"
+                                                     width="200px"
+                                                     color="#9d8f69" />
+
+  <mj-class name="views-new-product__caption"        font-family="Arial, sans-serif"
+                                                     font-size="36px"
+                                                     font-weight="bold"
+                                                     line-height="46px"
+                                                     text-align="left"
+                                                     padding="10px 20px"
+                                                     align="left"
+                                                     width="200px"
+                                                     color="#000000"/>
+
+
+  <mj-class name="views-new-product__img"            width="260px"
+                                                     padding="10px 20px"/>
+
+
+  <!-- three-col -->
+
+  <mj-class name="views-three-col__caption"          font-family="Arial, Helvetica, sans-serif";
+                                                     font-size="16px"
+                                                     font-style="italic"
+                                                     font-weight="bold"
+                                                     line-height="24px"
+                                                     text-align="center"
+                                                     text-transform="uppercase"
+                                                     color="#ffffff"
+                                                     padding="10px 20px"/>
+
+  <mj-class name="views-three-col__text"             font-family="Helvetica, Arial, sans-serif"
+                                                     font-size="14px"
+                                                     font-style="normal"
+                                                     font-weight="400"
+                                                     line-height="22px"
+                                                     text-align="center"
+                                                     color="#9a9a9a"
+                                                     padding="10px 20px"/>
+
+  <mj-class name="views-three-col__btn"              font-size="15px"
+                                                     line-height="22px"
+                                                     font-weight="bold"
+                                                     text-align="center"
+                                                     color="#000000"
+                                                     background-color="#fde4ac"
+                                                     text-transform="uppercase"
+                                                     padding="10px 20px"/>
+
+  <mj-class name="views-three-col__img-cam"          padding="10px 20px"/>
+
+  <mj-class name="views-three-col__img-tel"          padding="10px 20px"/>
+
+  <mj-class name="views-three-col__img-hf"           padding="10px 20px"/>
+
+  <mj-class name="views-three-col__column"           width="200px"/>
+
+  <!-- vr -->
+
+  <mj-class name="wrapper-background-second"         background-url="https://i.postimg.cc/HnNL2QBF/img-tech-bg-2.jpg"
+                                                     background-position="center center"
+                                                     background-repeat="no-repeat"
+                                                     background-size="cover" />
+
+  <mj-class name="views-vr"                          background-color="#fbf5e4"/>
+
+  <mj-class name="views-vr__left-col"                width="240px"/>
+
+  <mj-class name="views-vr__right-col"               width="360px"
+                                                     vertical-align="bottom"/>
+
+  <mj-class name="views-vr__btn"                     font-family="Arial, Helvetica, sans-serif";
+                                                     font-size="15px"
+                                                     font-weight="bold"
+                                                     line-height="22px"
+                                                     text-align="center"
+                                                     align="left"
+                                                     text-transform="uppercase"
+                                                     color="#000000"
+                                                     background-color="#fbf5e4"
+                                                     padding="10px 20px"
+                                                     width="175px"/>
+
+  <mj-class name="views-vr__text"                    font-family="Helvetica, Arial, sans-serif"
+                                                     font-size="14px"
+                                                     font-style="normal"
+                                                     line-height="22px"
+                                                     font-weight="400"
+                                                     text-align="left"
+                                                     align="left"
+                                                     padding="10px 20px"
+                                                     padding="0px"
+                                                     width="200px"
+                                                     color="#555555"/>
+
+  <mj-class name="views-vr__caption"                 font-family="Arial, sans-serif"
+                                                     font-size="36px"
+                                                     font-weight="bold"
+                                                     line-height="46px"
+                                                     text-align="left"
+                                                     align="left"
+                                                     padding="10px 20px"
+                                                     width="200px"
+                                                     color="#000000"/>
+
+
+  <mj-class name="views-vr__img"                     width="300px"
+                                                     padding-top="10px"/>
+
+
+  <!-- footer -->
+
+  <mj-class name="views-footer__column"              width="300px"/>
+
+  <mj-class name="views-footer__social"              icon-size="32px "/>
+
+  <mj-class name="views-footer__copyright"           font-family="Arial, sans-serif"
+                                                     font-size="14px"
+                                                     line-height="22px"
+                                                     text-align="center"
+                                                     color="#ffffff"
+                                                     padding="20px"/>
+
+
 
 
 </mj-attributes>

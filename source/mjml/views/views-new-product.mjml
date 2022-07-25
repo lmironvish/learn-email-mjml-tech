@@ -1,0 +1,37 @@
+<mj-section mj-class="views-new-product pt10 pb10"
+          css-class="views-new-product pt10 pb10">
+
+  <mj-column mj-class="views-new-product__left-col"
+            css-class="views-new-product__left-col">
+
+    <mj-text mj-class="views-new-product__caption"
+            css-class="views-new-product__caption">
+            You feel the power of&nbsp;tech
+    </mj-text>
+
+    <mj-text mj-class="views-new-product__text"
+            css-class="views-new-product__text">
+        Excepteur sint occaecat cupidatat anim id&nbsp;est laborum.
+    </mj-text>
+
+    <mj-button mj-class="views-new-product__btn"
+              css-class="views-new-product__btn"
+              href="#">
+        New products
+    </mj-button>
+
+  </mj-column>
+
+  <mj-column mj-class="views-new-product__right-col"
+            css-class="views-new-product__right-col">
+
+    <mj-image mj-class="views-new-product__img alt-img"
+              css-class="views-new-product__img alt-img"
+
+              src="{{{views-new-product__img.src}}}"
+              title="{{{views-new-product__img.title}}}"
+              alt="{{{views-new-product__img.alt}}}" />
+
+  </mj-column>
+
+</mj-section>

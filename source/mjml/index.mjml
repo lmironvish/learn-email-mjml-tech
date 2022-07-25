@@ -27,19 +27,33 @@
   <mj-body css-class="body"
            background-color="#000000">
 
-  <!-- <mj-include path="components/spacer/spacer.mjml" /> -->
+  <mj-include path="views/views-title.mjml" />
 
-  <mj-wrapper mj-class="wrapper pt10 pb10"
-              css-class="wrapper pt10 pb10">
+  <mj-include path="views/views-header.mjml" />
 
-    <mj-include path="views/views-title.mjml" />
+  <mj-wrapper mj-class="wrapper-divider-first"
+            css-class="wrapper-divider-first">
+  </mj-wrapper>
 
-    <mj-include path="views/views-header.mjml" />
+  <mj-wrapper mj-class="wrapper-background-first"
+              css-class="wrapper-background-first">
+
+    <mj-include path="views/views-new-product.mjml" />
 
   </mj-wrapper>
 
-  <mj-include path="views/views-first-div.mjml" />
+    <mj-wrapper mj-class="wrapper-divider-second"
+            css-class="wrapper-divider-second">
+  </mj-wrapper>
 
+  <mj-include path="views/views-three-col.mjml" />
+
+  <mj-wrapper mj-class="wrapper-background-second"
+              css-class="wrapper-background-second">
+
+  <mj-include path="views/views-vr.mjml" />
+
+  </mj-wrapper>
 
   <mj-include path="views/views-footer.mjml" />
 

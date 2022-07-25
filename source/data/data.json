@@ -20,8 +20,32 @@
     "alt": "text"
   },
 
-  "views-header__img-div": {
-    "src": "https://i.postimg.cc/Y9pjq2vD/img-tech-bg-1.jpg",
+  "views-new-product__img": {
+    "src": "https://i.postimg.cc/tCVRbnrC/img-tech-quadrocopter.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-cam": {
+    "src": "https://i.postimg.cc/SRHy8mKh/img-tech-product-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-hf": {
+    "src": "https://i.postimg.cc/N0xfVhd6/img-tech-headphones-2.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-three-col__img-tel": {
+    "src": "https://i.postimg.cc/tJsqYspk/img-tech-product-1.jpg",
+    "title": "text",
+    "alt": "text"
+  },
+
+  "views-vr__img": {
+    "src": "https://i.postimg.cc/NjqsjGV8/img-tech-vr.jpg",
     "title": "text",
     "alt": "text"
   },

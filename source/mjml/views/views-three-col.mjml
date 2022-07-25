@@ -1,0 +1,88 @@
+<mj-section mj-class ="views-three-col pt10 pb30"
+            css-class="viws-three-col pt10 pb30">
+
+  <mj-column mj-class="views-three-col__column container "
+             css-class="views-three-col__column container ">
+
+    <mj-image mj-class="views-three-col__img-tel alt-img"
+              css-class="views-three-col__img-tel alt-img"
+
+              src="{{{views-three-col__img-tel.src}}}"
+              title="{{{views-three-col__img-tel.title}}}"
+              alt="{{{views-three-col__img-tel.alt}}}" />
+
+    <mj-text mj-class="views-three-col__caption"
+            css-class="views-three-col__caption">
+            <span>MOBILE</span>
+    </mj-text>
+
+    <mj-text mj-class="views-three-col__text"
+            css-class="views-three-col__text">
+      <p>Duis sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
+    </mj-text>
+
+    <mj-button mj-class="views-three-col__btn"
+              css-class="views-three-col__btn"
+              href="#">
+        Buy
+    </mj-button>
+
+  </mj-column>
+
+  <mj-column mj-class="views-three-col__column container "
+             css-class="views-three-col__column container ">
+
+    <mj-image mj-class="views-three-col__img-hf alt-img"
+              css-class="views-three-col__img-hf alt-img"
+
+              src="{{{views-three-col__img-hf.src}}}"
+              title="{{{views-three-col__img-hf.title}}}"
+              alt="{{{views-three-col__img-hf.alt}}}" />
+
+    <mj-text mj-class="views-three-col__caption"
+            css-class="views-three-col__caption">
+            <span>HEADPHONES</span>
+    </mj-text>
+
+      <mj-text mj-class="views-three-col__text"
+            css-class="views-three-col__text">
+        <p>Duis sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
+    </mj-text>
+
+    <mj-button mj-class="views-three-col__btn"
+              css-class="views-three-col__btn"
+              href="#">
+        Buy
+    </mj-button>
+
+  </mj-column>
+
+  <mj-column mj-class="views-three-col__column container "
+             css-class="views-three-col__column container ">
+
+    <mj-image mj-class="views-three-col__img-cam alt-img"
+              css-class="views-three-col__img-cam alt-img"
+
+              src="{{{views-three-col__img-cam.src}}}"
+              title="{{{views-three-col__img-cam.title}}}"
+              alt="{{{views-three-col__img-cam.alt}}}" />
+
+    <mj-text mj-class="views-three-col__caption"
+            css-class="views-three-col__caption">
+            <span>CAMERA</span>
+    </mj-text>
+
+      <mj-text mj-class="views-three-col__text"
+            css-class="views-three-col__text">
+      <p>Duis sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
+    </mj-text>
+
+    <mj-button mj-class="views-three-col__btn"
+              css-class="views-three-col__btn"
+              href="#">
+        Buy
+    </mj-button>
+
+  </mj-column>
+
+</mj-section>
