@@ -1,8 +1,8 @@
 <mj-section mj-class="views-header"
           css-class="views-header">
 
-  <mj-column mj-class="views-header__column container"
-            css-class="views-header__column container">
+  <mj-column mj-class="views-header__column"
+            css-class="views-header__column">
 
     <mj-text mj-class="views-header__text"
             css-class="views-header__text">
@@ -15,8 +15,8 @@
             <span>friday</span>
     </mj-text>
 
-    <mj-image mj-class="views-header__img alt-img"
-              css-class="views-header__img alt-img"
+    <mj-image mj-class="views-header__img"
+              css-class="views-header__img"
 
               src="{{{views-header__img.src}}}"
               title="{{{views-header__img.title}}}"

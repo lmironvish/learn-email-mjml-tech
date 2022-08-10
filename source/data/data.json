@@ -1,69 +1,53 @@
 {
   "title": {
-    "content": "title"
+    "content": "lmironvish — Tech Email"
   },
 
   "preheader": {
-    "content": "preheader &nbsp;&zwnj;"
+    "content": "Tech Blackfriday — this 29 november get 30% off &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;"
   },
 
   "views-title__img": {
     "src": "https://i.postimg.cc/V6GsfqQ5/img-tech-logo.png",
-    "href": "https://www.google.com/",
-    "title": "text",
-    "alt": "text"
+    "href": "#",
+    "title": "logo",
+    "alt": "logo"
   },
 
   "views-header__img": {
     "src": "https://i.postimg.cc/ZK9nqMqm/img-tech-headphones-1.jpg",
-    "title": "text",
-    "alt": "text"
+    "title": "headphones",
+    "alt": "headphones"
   },
 
   "views-new-product__img": {
     "src": "https://i.postimg.cc/tCVRbnrC/img-tech-quadrocopter.jpg",
-    "title": "text",
-    "alt": "text"
+    "title": "quadrocopter",
+    "alt": "quadrocopter"
   },
 
   "views-three-col__img-cam": {
     "src": "https://i.postimg.cc/SRHy8mKh/img-tech-product-2.jpg",
-    "title": "text",
-    "alt": "text"
+    "title": "cam",
+    "alt": "cam"
   },
 
   "views-three-col__img-hf": {
     "src": "https://i.postimg.cc/N0xfVhd6/img-tech-headphones-2.jpg",
-    "title": "text",
-    "alt": "text"
+    "title": "headphones",
+    "alt": "headphones"
   },
 
   "views-three-col__img-tel": {
     "src": "https://i.postimg.cc/tJsqYspk/img-tech-product-1.jpg",
-    "title": "text",
-    "alt": "text"
+    "title": "tel",
+    "alt": "tel"
   },
 
   "views-vr__img": {
     "src": "https://i.postimg.cc/NjqsjGV8/img-tech-vr.jpg",
-    "title": "text",
-    "alt": "text"
-  },
-
-  "button--1": {
-    "src": "",
-    "href": "https://www.google.com/",
-    "title": "text",
-    "bgcolor": "#838383"
-  },
-
-  "views-footer-link-1": {
-    "href": "https://www.google.com/",
-    "title": "text"
-  },
-
-  "views-unsubscribe": {
-    "href": "{{ unsubscribe_link }}",
-    "title": "text"
+    "title": "vr",
+    "alt": "vr"
   }
+
 }

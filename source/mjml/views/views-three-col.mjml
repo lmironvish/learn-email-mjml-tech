@@ -1,11 +1,11 @@
 <mj-section mj-class ="views-three-col pt10 pb30"
             css-class="viws-three-col pt10 pb30">
 
-  <mj-column mj-class="views-three-col__column container "
-             css-class="views-three-col__column container ">
+  <mj-column mj-class="views-three-col__column"
+             css-class="views-three-col__column">
 
-    <mj-image mj-class="views-three-col__img-tel alt-img"
-              css-class="views-three-col__img-tel alt-img"
+    <mj-image mj-class="views-three-col__img-tel"
+              css-class="views-three-col__img-tel"
 
               src="{{{views-three-col__img-tel.src}}}"
               title="{{{views-three-col__img-tel.title}}}"
@@ -29,11 +29,11 @@
 
   </mj-column>
 
-  <mj-column mj-class="views-three-col__column container "
-             css-class="views-three-col__column container ">
+  <mj-column mj-class="views-three-col__column"
+             css-class="views-three-col__column">
 
-    <mj-image mj-class="views-three-col__img-hf alt-img"
-              css-class="views-three-col__img-hf alt-img"
+    <mj-image mj-class="views-three-col__img-hf"
+              css-class="views-three-col__img-hf"
 
               src="{{{views-three-col__img-hf.src}}}"
               title="{{{views-three-col__img-hf.title}}}"
@@ -57,11 +57,11 @@
 
   </mj-column>
 
-  <mj-column mj-class="views-three-col__column container "
-             css-class="views-three-col__column container ">
+  <mj-column mj-class="views-three-col__column"
+             css-class="views-three-col__column">
 
-    <mj-image mj-class="views-three-col__img-cam alt-img"
-              css-class="views-three-col__img-cam alt-img"
+    <mj-image mj-class="views-three-col__img-cam"
+              css-class="views-three-col__img-cam"
 
               src="{{{views-three-col__img-cam.src}}}"
               title="{{{views-three-col__img-cam.title}}}"

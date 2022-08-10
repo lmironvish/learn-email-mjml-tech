@@ -4,8 +4,8 @@
   <mj-column mj-class="views-title__column"
             css-class="views-title__column">
 
-    <mj-image mj-class="views-title__img pt10 pb20 alt-img"
-              css-class="views-title__img pt10 pb20 alt-img"
+    <mj-image mj-class="views-title__img"
+              css-class="views-title__img"
 
               src="{{{views-title__img.src}}}"
               href="{{{views-title__img.href}}}"

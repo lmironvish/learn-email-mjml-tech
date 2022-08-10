@@ -1,5 +1,5 @@
-<mj-section mj-class="views-new-product pt10 pb10"
-          css-class="views-new-product pt10 pb10">
+<mj-section mj-class="views-new-product"
+          css-class="views-new-product">
 
   <mj-column mj-class="views-new-product__left-col"
             css-class="views-new-product__left-col">
@@ -25,8 +25,8 @@
   <mj-column mj-class="views-new-product__right-col"
             css-class="views-new-product__right-col">
 
-    <mj-image mj-class="views-new-product__img alt-img"
-              css-class="views-new-product__img alt-img"
+    <mj-image mj-class="views-new-product__img"
+              css-class="views-new-product__img"
 
               src="{{{views-new-product__img.src}}}"
               title="{{{views-new-product__img.title}}}"

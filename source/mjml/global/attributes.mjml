@@ -82,7 +82,8 @@
 
   <!-- title -->
 
-  <mj-class name="views-title__img"                  width="128px"/>
+  <mj-class name="views-title__img"                  width="128px"
+                                                     padding="10px 20px"/>
 
   <!-- header -->
 
@@ -94,7 +95,8 @@
                                                      text-align="center"
                                                      text-transform="uppercase"
                                                      color="#ffffff"
-                                                     padding="0px"/>
+                                                     padding="24px 20px"
+                                                     padding-bottom="0px"/>
 
 
   <mj-class name="views-header__caption"             font-family="Oswald, Arial, Helvetica, sans-serif";
@@ -104,6 +106,7 @@
                                                      line-height="64px"
                                                      text-align="center"
                                                      text-transform="uppercase"
+                                                     padding="0px 20px"
                                                      color="#ffffff"/>
 
   <mj-class name="views-header__btn"                 font-family="Arial, Helvetica, sans-serif";
@@ -116,7 +119,9 @@
                                                      color="#fde4ac"
                                                      background-color="#000000"/>
 
-  <!-- <mj-class name="div1-color"                "/> -->
+  <mj-class name="views-header__img"                 width="560px"
+                                                     padding="10px 20px"
+                                                     fluid-on-mobile="true"/>
 
   <!-- np-block -->
 
@@ -137,12 +142,8 @@
                                                      background-repeat="no-repeat"
                                                      background-size="cover" />
 
-
-  <mj-class name="views-new-product"                 background-color="#fde4ac"/>
-
-  <mj-class name="views-new-product__left-col"       width="300px"/>
-
-  <mj-class name="views-new-product__right-col"      width="300px"/>
+  <mj-class name="views-new-product"                 background-color="#fde4ac"
+                                                     padding="10px 0px"/>
 
   <mj-class name="views-new-product__btn"            font-family="Arial, Helvetica, sans-serif";
                                                      font-size="15px"
@@ -153,7 +154,6 @@
                                                      color="#ffffff"
                                                      background-color="#000000"
                                                      padding="10px 20px"
-                                                     width="175px"
                                                      align="left"
                                                      border-radius="3px"/>
 
@@ -165,8 +165,6 @@
                                                      text-align="left"
                                                      align="left"
                                                      padding="10px 20px"
-                                                     padding="0px"
-                                                     width="200px"
                                                      color="#9d8f69" />
 
   <mj-class name="views-new-product__caption"        font-family="Arial, sans-serif"
@@ -176,15 +174,18 @@
                                                      text-align="left"
                                                      padding="10px 20px"
                                                      align="left"
-                                                     width="200px"
                                                      color="#000000"/>
 
 
-  <mj-class name="views-new-product__img"            width="260px"
-                                                     padding="10px 20px"/>
+  <mj-class name="views-new-product__img"            width="320px"
+                                                     padding="10px 20px"
+                                                     fluid-on-mobile="true"/>
 
 
   <!-- three-col -->
+
+
+  <mj-class name="views-three-col__column"           padding-bottom="30px"/>
 
   <mj-class name="views-three-col__caption"          font-family="Arial, Helvetica, sans-serif";
                                                      font-size="16px"
@@ -214,14 +215,14 @@
                                                      text-transform="uppercase"
                                                      padding="10px 20px"/>
 
-  <mj-class name="views-three-col__img-cam"          padding="10px 20px"/>
+  <mj-class name="views-three-col__img-cam"          padding="10px 20px"
+                                                     fluid-on-mobile="true"/>
 
-  <mj-class name="views-three-col__img-tel"          padding="10px 20px"/>
+  <mj-class name="views-three-col__img-tel"          padding="10px 20px"
+                                                     fluid-on-mobile="true"/>
 
-  <mj-class name="views-three-col__img-hf"           padding="10px 20px"/>
-
-  <mj-class name="views-three-col__column"           width="200px"/>
-
+  <mj-class name="views-three-col__img-hf"           padding="10px 20px"
+                                                     fluid-on-mobile="true"/>
   <!-- vr -->
 
   <mj-class name="wrapper-background-second"         background-url="https://i.postimg.cc/HnNL2QBF/img-tech-bg-2.jpg"
@@ -231,10 +232,7 @@
 
   <mj-class name="views-vr"                          background-color="#fbf5e4"/>
 
-  <mj-class name="views-vr__left-col"                width="240px"/>
-
-  <mj-class name="views-vr__right-col"               width="360px"
-                                                     vertical-align="bottom"/>
+  <mj-class name="views-vr__right-col"               vertical-align="bottom"/>
 
   <mj-class name="views-vr__btn"                     font-family="Arial, Helvetica, sans-serif";
                                                      font-size="15px"
@@ -271,8 +269,8 @@
                                                      color="#000000"/>
 
 
-  <mj-class name="views-vr__img"                     width="300px"
-                                                     padding-top="10px"/>
+  <mj-class name="views-vr__img"                     padding-top="10px"
+                                                     fluid-on-mobile="true"/>
 
 
   <!-- footer -->
