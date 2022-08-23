@@ -9,8 +9,6 @@
   supported-color-schemes: light dark;
 }
 
-
-
 .views-header__btn > table > tbody :hover{
   background-color: #fde4ac !important;
   color: #000000 !important;
@@ -140,23 +138,36 @@
     border-top: 1px solid #838383 !important;
   }
 
-  .views-new-product__left-col > table > tbody > tr > td,
-  .views-new-product__right-col > table > tbody > tr > td {
+  .views-new-product > table > tbody > tr > td {
+    background-color: #fde4ac !important;
+    background: #fde4ac !important;
+  }
+  .views-three-col__btn > table > tbody > tr > td a {
     background-color: #fde4ac !important;
     background: #fde4ac !important;
   }
 
-  .views-vr__left-col > table > tbody > tr > td,
-  .views-vr__right-col > table > tbody > tr > td {
+  .views-vr > table > tbody > tr > td {
     background-color: #fbf5e4 !important;
     background: #fbf5e4 !important;
   }
 
-  .views-three-col__btn > table > tbody > tr > td{
-    background-color: #fde4ac !important;
-    background: #fde4ac !important;
+  .views-vr__btn > table > tbody > tr > td a{
+    background-color: #fbf5e4 !important;
+    background: #fbf5e4 !important;
   }
 
+  .views-header__btn > table > tbody > tr > td a{
+    border: 1px solid #fde4ac !important;
+    background-color: #000000 !important;
+    background: #000000 !important;
+  }
+
+  .views-header__btn > table > tbody :hover{
+    background-color: #fde4ac !important;
+    color: #000000 !important;
+    border-radius: 3px !important;
+  }
 }
 
 /* black-theme rule attr */
@@ -194,22 +205,42 @@
   border-top: 1px solid #838383 !important;
 }
 
-[data-ogsc] .views-vr__left-col > table > tbody > tr > td,
-[data-ogsb] .views-vr__left-col > table > tbody > tr > td,
-[data-ogsc] .views-vr__right-col > table > tbody > tr > td,
-[data-ogsb] .views-vr__right-col > table > tbody > tr > td {
+[data-ogsc].views-new-product > table > tbody > tr > td,
+[data-ogsb].views-new-product > table > tbody > tr > td {
+  background-color: #fde4ac !important;
+  background: #fde4ac !important;
+}
+[data-ogsc].views-three-col__btn > table > tbody > tr > td a,
+[data-ogsb].views-three-col__btn > table > tbody > tr > td a {
+  background-color: #fde4ac !important;
+  background: #fde4ac !important;
+}
+
+[data-ogsc].views-vr > table > tbody > tr > td,
+[data-ogsb].views-vr > table > tbody > tr > td {
   background-color: #fbf5e4 !important;
   background: #fbf5e4 !important;
 }
 
-[data-ogsc] .views-new-product__left-col > table > tbody > tr > td,
-[data-ogsb] .views-new-product__left-col > table > tbody > tr > td,
-[data-ogsc] .views-new-product__right-col > table > tbody > tr > td,
-[data-ogsb] .views-new-product__right-col > table > tbody > tr > td {
+[data-ogsc].views-vr__btn > table > tbody > tr > td a,
+[data-ogsb].views-vr__btn > table > tbody > tr > td a{
   background-color: #fbf5e4 !important;
   background: #fbf5e4 !important;
 }
 
+[data-ogsc].views-header__btn > table > tbody > tr > td a,
+[data-ogsb].views-header__btn > table > tbody > tr > td a{
+  border: 1px solid #fde4ac !important;
+  background-color: #000000 !important;
+  background: #000000 !important;
+}
+
+[data-ogsc].views-header__btn > table > tbody :hover,
+[data-ogsb].views-header__btn > table > tbody :hover{
+  background-color: #fde4ac !important;
+  color: #000000 !important;
+  border-radius: 3px !important;
+}
 
 
 </mj-style>

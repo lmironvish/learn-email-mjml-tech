@@ -33,6 +33,7 @@
     "dev": "gulp dev",
     "image": "gulp image",
     "typograf": "gulp typograf",
+    "buildSend": "gulp build && node ./task/sendmail.js",
     "sendmail": "node ./task/sendmail.js",
     "build": "gulp build",
     "deploy": "gh-pages -d build",
